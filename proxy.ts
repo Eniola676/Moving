@@ -15,6 +15,10 @@ const DOMAINS: Record<string, string> = {
   // CPA — Basalt & Pine CPA
   "basalt-pine-cpa.vercel.app": "cpa",
   "cpa.localhost:3000": "cpa",
+
+  // Executive coaching landing page — Halden Institute
+  "halden-coaching.vercel.app": "coaching",
+  "coaching.localhost:3000": "coaching",
 };
 
 const SLUGS = new Set(Object.values(DOMAINS));
