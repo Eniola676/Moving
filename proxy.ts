@@ -19,6 +19,10 @@ const DOMAINS: Record<string, string> = {
   // Executive coaching landing page — Halden Institute
   "halden-coaching.vercel.app": "coaching",
   "coaching.localhost:3000": "coaching",
+
+  // Safe House Schools — Valli Jones
+  "safe-school-valli.vercel.app": "safe-school-valli",
+  "safe-school-valli.localhost:3000": "safe-school-valli",
 };
 
 const SLUGS = new Set(Object.values(DOMAINS));
